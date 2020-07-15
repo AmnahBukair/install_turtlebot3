@@ -18,4 +18,9 @@ inside workspace:
 source devel/setup.bash
 export TURTLEBOT3_MODEL=burger
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
+Then the simulation was launched [click here](https://github.com/AmnahBukair/install_turtlebot3/blob/master/launch%20Turtlebot%20World.png)
 
+
+## Refrences:
+https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#turtlebot3-simulation-using-fake-node  
+http://gazebosim.org/tutorials?tut=ros_installing&cat=connect_ros  
