@@ -31,11 +31,6 @@ Save the file and close it.
 Now reload .bashrc so that you do not have to log out and log back in.  
 
 source ~/.bashrc  
-Now, we need to download the TurtleBot3 simulation files.  
-
-cd ~/catkin_ws/src/  
-git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git   
-cd ~/catkin_ws && catkin_make  
 
 
 
