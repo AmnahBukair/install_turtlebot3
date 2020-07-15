@@ -2,11 +2,11 @@ TurtleBot3 supports development environment that can be programmed and developed
 
 The fake node method is suitable for testing with the robot model and movement, but it can not use sensors. as i need to test SLAM and Navigation, i am going to use Gazebo, which can use sensors such as IMU, LDS, and camera in the simulation.  
  
-## Install Gazebo :Default installation
-* one-liner Install
-  curl -sSL http://get.gazebosim.org | sh
-* Run
-  gazebo
+## Install Gazebo :Default installation  
+* one-liner Install  
+  curl -sSL http://get.gazebosim.org | sh  
+* Run  
+  gazebo  
   
 ## Install gazebo_ros_pkgs
 sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-ros-control
@@ -14,10 +14,10 @@ sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-ros-control
 ## TurtleBot3 World
 TurtleBot3 world is a map consists of simple objects that makes up the shape of TurtleBot3 symbol. TurtleBot3 world is mainly used for testing such as SLAM and Navigation.  
 inside workspace:  
+$ source devel/setup.bash  
+$ export TURTLEBOT3_MODEL=burger
+$ roslaunch turtlebot3_gazebo turtlebot3_world.launch  
 
-source devel/setup.bash
-export TURTLEBOT3_MODEL=burger
-roslaunch turtlebot3_gazebo turtlebot3_world.launch
 Then the simulation was launched [click here](https://github.com/AmnahBukair/install_turtlebot3/blob/master/launch%20Turtlebot%20World.png)
 
 
