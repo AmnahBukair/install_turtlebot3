@@ -1,7 +1,7 @@
 # Pre_installation
 intall ubuntu 16.04 and ROS Kinetic  
 
-# step 1: create a workspace 
+## Create a workspace 
 cd Documents  
 mkdir turtle_ws    
 cd turtle_ws   
@@ -11,7 +11,7 @@ catkin_init_workspace
 cd ..    
 catkin_make  
 
-# step 2: install the TurtleBot3 simulator
+## Install the TurtleBot3 simulator
 
 Open a terminal window and install the dependent packages. Enter the following commands, one right after the other:
 
@@ -33,4 +33,6 @@ Now reload .bashrc so that you do not have to log out and log back in.
 source ~/.bashrc  
 
 
-
+## Refrences:
+https://www.udemy.com/course/ros-basics-program-robots/learn/lecture/8892582#overview  
+https://automaticaddison.com/how-to-launch-the-turtlebot3-simulation-with-ros/#gazebo  
