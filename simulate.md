@@ -10,3 +10,12 @@ The fake node method is suitable for testing with the robot model and movement, 
   
 ## Install gazebo_ros_pkgs
 sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-ros-control
+
+## TurtleBot3 World
+TurtleBot3 world is a map consists of simple objects that makes up the shape of TurtleBot3 symbol. TurtleBot3 world is mainly used for testing such as SLAM and Navigation.  
+inside workspace:  
+
+source devel/setup.bash
+export TURTLEBOT3_MODEL=burger
+roslaunch turtlebot3_gazebo turtlebot3_world.launch
+
