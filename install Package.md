@@ -32,6 +32,7 @@ Now reload .bashrc so that you do not have to log out and log back in.
 
 source ~/.bashrc  
 
+# Install turtlbot simulation package[Here](https://github.com/AmnahBukair/install_turtlebot3/blob/master/install%20simulation%20package.md)
 
 ## Refrences:
 https://www.udemy.com/course/ros-basics-program-robots/learn/lecture/8892582#overview  
