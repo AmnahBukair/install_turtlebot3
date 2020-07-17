@@ -20,7 +20,8 @@ $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
 Then the simulation was launched [click here](https://github.com/AmnahBukair/install_turtlebot3/blob/master/launch%20Turtlebot%20World.png)  
 
-To make a first move you can do it manualy or autonomously
+# Movement in turtlebot
+To make a first move you can do it manualy or autonomously  
 $ export TURTLEBOT3_MODEL=burger  
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch  #for manulay using keybord   
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch       #atounomosly drive by it self    
