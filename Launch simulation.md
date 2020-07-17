@@ -4,9 +4,9 @@ The fake node method is suitable for testing with the robot model and movement, 
  
 ## Install Gazebo :Default installation  
 * one-liner Install  
-  curl -sSL http://get.gazebosim.org | sh  
+$ curl -sSL http://get.gazebosim.org | sh  
 * Run  
-  gazebo  
+$ gazebo  
   
 ## Install gazebo_ros_pkgs
 sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-ros-control
