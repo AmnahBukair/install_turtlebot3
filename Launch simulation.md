@@ -15,8 +15,14 @@ sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-ros-control
 TurtleBot3 world is a map consists of simple objects that makes up the shape of TurtleBot3 symbol. TurtleBot3 world is mainly used for testing such as SLAM and Navigation.  
 inside workspace:  
 $ source devel/setup.bash  
-$ export TURTLEBOT3_MODEL=burger
+$ export TURTLEBOT3_MODEL=burger  
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch  
+
+To make a first move you can do it manualy or autonomously
+
+$ export TURTLEBOT3_MODEL=burger
+$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch  #for manulay using keybord  
+$ roslaunch turtlebot3_gazebo turtlebot3_world.launch       #atounomosly drive by it self  
 
 Then the simulation was launched [click here](https://github.com/AmnahBukair/install_turtlebot3/blob/master/launch%20Turtlebot%20World.png)
 
